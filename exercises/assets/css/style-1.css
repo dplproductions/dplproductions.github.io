@@ -8,6 +8,7 @@
 /* Mobiles */
 @media (max-width: 767px) {
   body {
+    background: linear-gradient(90deg, yellow, blue, red);
     padding: 12% 8%;
   }
 }
@@ -35,4 +36,12 @@ p {
   font-family: sans-serif;
   line-height: 1.6;
   margin-bottom: 20px;
+}
+
+a {
+  color: coral;
+}
+
+a:hover {
+  color: green;
 }

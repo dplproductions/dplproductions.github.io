@@ -13,6 +13,7 @@
 }
 
 body {
+  background: linear-gradient(90deg, yellow, blue, red);
   font-family: sans-serif;
 }
 
@@ -41,4 +42,12 @@ p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
+}
+
+a {
+  color: coral;
+}
+
+a:hover {
+  color: green;
 }
