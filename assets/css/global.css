@@ -13,6 +13,7 @@
 }
 
 body {
+  background: linear-gradient(90deg, yellow, blue, red);
   text-align: center;
   font-family: sans-serif;
 }
@@ -43,4 +44,12 @@ h3 {
 p {
   font-size: 20px;
   margin-bottom: 16px;
+}
+
+a {
+  color: coral;
+}
+
+a:hover {
+  color: green;
 }
