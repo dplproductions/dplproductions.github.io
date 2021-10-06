@@ -97,9 +97,9 @@ p {
 }
 
 a {
-  color: coral;
+  color: red;
 }
 
 a:hover {
-  color: green;
+  color: darkred;
 }

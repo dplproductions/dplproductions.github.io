@@ -60,10 +60,11 @@ select {
 }
 
 body {
-  background: linear-gradient(90deg, blue, yellow, red);
+  background-color: purple;
 }
 
 h1 {
+  color: white;
   font-size: 84px;
   margin-bottom: 64px;
   text-align: center;
@@ -72,6 +73,7 @@ h1 {
 }
 
 h2 {
+  color: white;
   font-size: 28px;
   margin-bottom: 4px;
   margin-top: 54px;
@@ -86,9 +88,9 @@ p {
 }
 
 a {
-  color: coral;
+  color: gray;
 }
 
 a:hover {
-  color: green;
+  color: blue;
 }
