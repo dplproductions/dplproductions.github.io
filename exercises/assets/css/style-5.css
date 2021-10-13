@@ -62,11 +62,11 @@ select {
 /* Web page */
 body {
   background-color: #ffffbd;
+  font-family: "Merriweather", serif;
 }
 
 /* Main heading */
 h1 {
-  font-family: serif;
   font-size: 84px;
   line-height: 1.1;
   font-weight: normal;
@@ -78,8 +78,7 @@ h1 {
 
 /* Small headings */
 h2 {
-  font-family: serif;
-  font-size: 26px;
+  font-size: 24px;
   color: #3434b0;
   line-height: 1.5;
   margin-bottom: 42px;
@@ -87,19 +86,18 @@ h2 {
 
 /* Smaller headings */
 h3 {
-  font-family: serif;
   font-size: 42px;
   color: #000;
   letter-spacing: -1px;
   margin-top: 40px;
   margin-bottom: 2px;
   line-height: 1.2;
+  font-weight: Bold;
 }
 
 /* Text paragraphs */
 p {
-  font-family: serif;
-  font-size: 22px;
+  font-size: 20px;
   color: #455c80;
   line-height: 1.6;
   margin-top: 0;

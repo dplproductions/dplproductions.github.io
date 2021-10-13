@@ -62,11 +62,11 @@ select {
 /* Web page */
 body {
   background-color: #d1274b;
+  font-family: "Neucha", serif;
 }
 
 /* Main heading */
 h1 {
-  font-family: serif;
   font-weight: bold;
   font-size: 112px;
   color: #fff;
@@ -77,7 +77,6 @@ h1 {
 
 /* Small headings */
 h2 {
-  font-family: serif;
   font-weight: bold;
   font-size: 38px;
   color: #fff;
@@ -89,7 +88,6 @@ h2 {
 
 /* Smaller headings */
 h3 {
-  font-family: serif;
   font-weight: bold;
   font-size: 56px;
   color: #fff;
@@ -102,7 +100,6 @@ h3 {
 
 /* Text paragraphs */
 p {
-  font-family: serif;
   font-size: 28px;
   color: #fff;
   text-align: center;
