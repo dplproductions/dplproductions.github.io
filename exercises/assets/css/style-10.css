@@ -164,6 +164,13 @@ img {
   color: #044e6c;
 }
 
+/* Panel box style 3 */
+.important-note-box.box-style-3 {
+  border-width: 0 0 0 20px; /* Only left border has a width value */
+  border-left-color: #e66465;
+  background-color: #ffe7e8;
+}
+
 /* Panel box style 4 */
 .important-note-box.box-style-4 {
   padding: 22px; /* Extra padding at edges to make reversed text (light-on-dark) more readable */

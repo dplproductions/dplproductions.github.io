@@ -111,10 +111,23 @@ img {
   box-shadow: 8px 10px 8px #888;
 }
 
-a {
-  color: purple;
+/* Passive link styles */
+
+a:link,
+a:visited {
+  text-decoration: none;
+  padding-bottom: 2px;
+  color: #000;
+  border-bottom: solid 2px #000;
 }
 
-a:hover {
-  color: darkblue;
+/* Interactive link styles */
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  padding-bottom: 2px;
+  color: #f26f21;
+  border-bottom: solid 2px blue;
 }
