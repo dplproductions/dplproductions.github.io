@@ -14,6 +14,25 @@
     <link rel="manifest" href="assets/img/site.webmanifest">
     <link rel="preload" href="/assets/img/web-design.jpg" as="image">
     <link rel="stylesheet" href="assets/css/global.css">
+    <!-- Cookie message -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#f1d600"
+                }
+            },
+            "content": {
+                "href": "https://dplproductions.github.io/privacy.html"
+            }
+        });
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWYRELXFTZ"></script>
     <script>
@@ -69,6 +88,7 @@
     <p><a href="portfolio/smoothies/index.html">Smoothies Project</a></p>
     <p><a href="portfolio/travel/index.html">IBAT Tours</a></p>
     <!-- Final Version -->
+
     <p>Web design by DPL Productions &copy</p>
     <img src="assets/img/logo.png" alt="web developer logo">
 </body>
