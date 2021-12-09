@@ -206,9 +206,7 @@ body {
 }
 
 /* Theme Four */
-.theme-four {
-  background: #6ea8fe;
-}
+
 .theme-four .col-1 h3 {
   color: var(--black-000);
 }
@@ -322,72 +320,36 @@ footer h3 {
 .container-menu.menu-sticky.menu-desktop.menu-on-scroll,
 .container-menu.menu-sticky.menu-mobile.menu-on-scroll,
 .container-menu.menu-sticky.menu-mobile ul.mobile-display {
-  background-color: var(--blue-300);
+  background-color: var(--blue-800);
 }
-.container-menu.menu-sticky.menu-desktop.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display {
-  background-color: var(--blue-400);
+.container-menu.menu-desktop {
+  background-color: var(--blue-800);
 }
-.container-menu.menu-on-scroll ul li a:link,
-.container-menu.menu-on-scroll ul li a:visited {
-  color: var(--blue-700);
+.container-menu.menu-mobile {
+  background-color: var(--blue-800);
 }
-.container-menu.menu-on-scroll ul li a:focus,
-.container-menu.menu-on-scroll ul li a:hover,
-.container-menu.menu-on-scroll ul li a:active {
-  color: var(--blue-500);
+.container-menu.menu-mobile ul.mobile-display {
+  background-color: var(--blue-800);
 }
-.container-menu.menu-mobile ul.mobile-display a:link,
-.container-menu.menu-mobile ul.mobile-display a:visited {
-  color: var(--blue-700);
+.container-menu a:link,
+.container-menu a:visited {
+  color: var(--blue-600);
 }
 .container-menu a#btn-cta:link,
 .container-menu a#btn-cta:visited {
-  background-color: var(--blue-700);
+  background-color: var(--blue-600);
 }
 .container-menu a#btn-cta:link,
 .container-menu a#btn-cta:visited {
-  border-color: var(--blue-700);
+  border-color: var(--blue-600);
 }
 .container-menu a#btn-cta:focus,
 .container-menu a#btn-cta:hover,
 .container-menu a#btn-cta:active {
-  border-color: var(--blue-500);
-}
-.container-menu a:link,
-.container-menu a:visited {
-  color: var(--blue-700);
-}
-.container-menu a:focus,
-.container-menu a:hover,
-.container-menu a:active {
-  color: var(--blue-500);
-}
-.container-menu .item-icon .bar1,
-.container-menu .item-icon .bar2,
-.container-menu .item-icon .bar3 {
   background-color: var(--blue-300);
 }
-.container-menu.menu-mobile,
-.container-menu.menu-mobile ul.mobile-display {
-  background-color: var(--blue-300);
-}
-.container-menu.menu-mobile ul.mobile-display a:link,
-.container-menu.menu-mobile ul.mobile-display a:visited {
-  color: var(--blue-600);
-}
-.container-menu.menu-mobile ul.mobile-display a:focus,
-.container-menu.menu-mobile ul.mobile-display a:hover,
-.container-menu.menu-mobile ul.mobile-display a:active {
-  color: var(--blue-500);
-}
-.container-menu.menu-desktop {
-  background-color: var(--trans-000);
-}
-.container-menu.menu-mobile {
-  background-color: var(--trans-000);
-}
-.container-menu.menu-mobile ul.mobile-display {
-  background-color: var(--trans-000);
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active {
+  border-color: var(--blue-300);
 }
